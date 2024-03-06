@@ -4,11 +4,11 @@ Hello, friend! You've found the sample code repository for a [Microsoft Learn mo
 
 # Playing with migrations
 
-Adding a migration: dotnet ef migrations add <name> --context <Name of context>
+Adding a migration: dotnet ef migrations add <name> --context **Name of context**
 
-Updating the database: dotnet ef database update --context <Name of context>
+Updating the database: dotnet ef database update --context **Name of context**
 
-Rollback of a migration: dotnet ef database update <name of previous migration>
+Rollback of a migration: dotnet ef database update **Name of previous migration**
 
 # Contributing
 
