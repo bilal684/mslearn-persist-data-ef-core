@@ -2,9 +2,17 @@
 
 Hello, friend! You've found the sample code repository for a [Microsoft Learn module](https://learn.microsoft.com/training/modules/persist-data-ef-core)! **You'll find the finished solution on [this branch](https://github.com/MicrosoftDocs/mslearn-persist-data-ef-core/tree/solution)**.
 
+# Playing with migrations
+
+Adding a migration: dotnet ef migrations add <name> --context <Name of context>
+
+Updating the database: dotnet ef database update --context <Name of context>
+
+Rollback of a migration: dotnet ef database update <name of previous migration>
+
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
